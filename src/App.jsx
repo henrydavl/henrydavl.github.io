@@ -153,6 +153,11 @@ function App() {
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
+    
+    const subject = `Portfolio Inquiry from ${formState.name}`;
+    const body = `Name: ${formState.name}\nEmail: ${formState.email}\n\nMessage:\n${formState.message}`;
+    window.location.href = `mailto:henrydavidlie@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
     setIsSubmitted(true);
     setTimeout(() => setIsSubmitted(false), 5000);
     setFormState({ name: '', email: '', message: '' });
@@ -242,10 +247,10 @@ function App() {
               <ChevronRight size={20} className="group-hover:translate-x-1 transition-transform" />
             </a>
             <div className="flex gap-3">
-              <a href="#" className="p-5 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700 rounded-2xl hover:border-blue-300 hover:text-blue-600 transition-all shadow-sm">
+              <a href="https://www.linkedin.com/in/henrydavidlie/" target="_blank" rel="noopener noreferrer" className="p-5 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700 rounded-2xl hover:border-blue-300 hover:text-blue-600 transition-all shadow-sm">
                 <LinkedInIcon size={24} />
               </a>
-              <a href="#" className="p-5 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700 rounded-2xl hover:border-slate-900 dark:hover:border-white hover:text-slate-900 dark:hover:text-white transition-all shadow-sm">
+              <a href="https://github.com/henrydavl" target="_blank" rel="noopener noreferrer" className="p-5 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700 rounded-2xl hover:border-slate-900 dark:hover:border-white hover:text-slate-900 dark:hover:text-white transition-all shadow-sm">
                 <GitHubIcon size={24} />
               </a>
             </div>
@@ -601,8 +606,8 @@ function App() {
               © 2026 Crafted with Passion
             </div>
             <div className="flex gap-6 text-slate-400">
-              <a href="#" className="hover:text-blue-600 dark:hover:text-white transition-colors"><LinkedInIcon size={20} /></a>
-              <a href="#" className="hover:text-slate-900 dark:hover:text-white transition-colors"><GitHubIcon size={20} /></a>
+              <a href="https://www.linkedin.com/in/henrydavidlie/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600 dark:hover:text-white transition-colors"><LinkedInIcon size={20} /></a>
+              <a href="https://github.com/henrydavl" target="_blank" rel="noopener noreferrer" className="hover:text-slate-900 dark:hover:text-white transition-colors"><GitHubIcon size={20} /></a>
               <a href="mailto:henrydavidlie@gmail.com" className="hover:text-blue-600 dark:hover:text-white transition-colors"><Mail size={20} /></a>
             </div>
           </div>
