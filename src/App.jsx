@@ -156,7 +156,12 @@ function App() {
     
     const subject = `Portfolio Inquiry from ${formState.name}`;
     const body = `Name: ${formState.name}\nEmail: ${formState.email}\n\nMessage:\n${formState.message}`;
-    window.location.href = `mailto:henrydavidlie@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    
+    // Construct Gmail Compose URL
+    const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=henrydavidlie@gmail.com&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    
+    // Open Gmail in a new tab
+    window.open(gmailUrl, '_blank');
 
     setIsSubmitted(true);
     setTimeout(() => setIsSubmitted(false), 5000);
