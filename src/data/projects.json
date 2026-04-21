@@ -1,0 +1,47 @@
+[
+  {
+    "title": "iOS Developer @ PT Bank Rakyat Indonesia",
+    "platform": "iOS",
+    "period": "04/2025 - Present",
+    "description": "Improved the Self-Onboarding feature by optimizing the account creation flow and reducing user friction. Developed and maintained core features of the BRIMerchant iOS application, ensuring performance and reliability. Built reusable components to support scalable feature development and improve code maintainability.",
+    "techStack": ["Swift", "UIKit", "Performance Optimization", "Clean Architecture"],
+    "link": "#",
+    "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "title": "Android Developer EDC @ PT Pasifik Cipta Solusi",
+    "platform": "Android",
+    "period": "04/2024 - 04/2025",
+    "description": "Led the development of an Android-based POS and EDC payment system used by >100,000 devices across retail networks. Optimized EMV and APDU processes, cutting transaction latency by 30% across devices (SUNMI, WISEASY, KOZEN, TIANYU). Spearheaded a multi-module architecture, reducing build time by 40% and significantly improving scalability for future teams.",
+    "techStack": ["Kotlin", "EMV/APDU", "Modularization", "Fintech"],
+    "link": "#",
+    "image": "https://images.unsplash.com/photo-1556742044-3c52d6e88c62?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "title": "Mobile Application Developer @ IBM-JTI Indonesia",
+    "platform": "iOS & Android",
+    "period": "04/2022 - 04/2024",
+    "description": "Directed internal iOS and Android apps for time-tracking & procurement workflows, adopted by 500+ employees, improving daily operational efficiency. Contributed to Bank Mandiri's New Banking Delivery System (NBDS), supporting over 1M+ transactions/month with strict security compliance. Collaborated with UI/UX and backend teams to ship 10+ major features, increasing user satisfaction scores by 20% in internal surveys.",
+    "techStack": ["Swift", "Kotlin", "iOS", "Android", "System Efficiency"],
+    "link": "#",
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "title": "iOS Developer Intern @ Apple Developer Academy",
+    "platform": "macOS (SwiftUI)",
+    "period": "02/2021 - 12/2021",
+    "description": "Led the development of a macOS portfolio app using SwiftUI for students' final projects. Implemented Gitflow for version control, improving team collaboration. Applied Scrum methodologies to accelerate project delivery.",
+    "techStack": ["SwiftUI", "macOS", "Gitflow", "Scrum"],
+    "link": "#",
+    "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "title": "Android Engineer Intern @ Larisin Indonesia",
+    "platform": "Android",
+    "period": "06/2020 - 08/2020",
+    "description": "Contributed new features to the Larisin POS application, enhancing product sorting functionalities and integrating analytics. Collaborated with design and consumer operations teams using Scrum methodology to deliver features in sync with business goals.",
+    "techStack": ["Android", "Kotlin", "Product Sorting", "Analytics"],
+    "link": "#",
+    "image": "https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?auto=format&fit=crop&w=800&q=80"
+  }
+]
