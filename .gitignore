@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Documents
+*.pdf
+CV_HenryDavidLie_APP.pdf
